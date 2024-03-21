@@ -1,0 +1,30 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "description": "ZenClass Ticketing System for query resolving",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMANI2887/ticketing_system_query.git"
+  },
+  "author": "MANIKANDAN S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SMANI2887/ticketing_system_query/issues"
+  },
+  "homepage": "https://github.com/SMANI2887/ticketing_system_query#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.2"
+  }
+}
